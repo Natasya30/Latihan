@@ -22,30 +22,20 @@
         object-fit: cover;
     }
 
-    table { width: 70%;
-    border-collapse: collapse; /* Menggabungkan garis border */
-    text-align: center;
-    border: 0%;
+    table {
+        border-collapse: collapse;
+        font-size: 23px;
+        color: sienna;
     }
-
-/* Mengatur warna latar belakang header tabel */
-th {
-    background-color: brown; 
-    color: white;
-    padding: 10px;
-    text-size-adjust: 150%;
-}
-
-/* Mengatur warna latar belakang untuk baris tabel */
-tr:nth-child(even) {
-    background-color: brown; /* Warna abu-abu muda */
-}
-
-/* Mengatur gaya untuk sel tabel */
-td {
-    padding: 2px;
-    border: 2px solid brown; /* Garis batas abu-abu */
-}
+    
+    th, td {
+        border: 2px solid brown;
+        text-align: center;
+    }
+    
+    th{
+        background-color: #fdf2e9;
+    }
 
 #judul {
     color: brown;
