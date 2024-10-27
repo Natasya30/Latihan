@@ -22,22 +22,31 @@
         object-fit: cover;
     }
 
-    table {
-        border-collapse: collapse;
-        font-size: 20px;
-        align-items: center;
-    }
-    
-    th, td {
-        border: 2px solid black;
-        text-align: center;
-    }
-    
-    th{
-        background-color: bisque;
+    table { width: 70%;
+    border-collapse: collapse; /* Menggabungkan garis border */
+    text-align: center;
+    border: 0%;
     }
 
-    /* Di dalam file CSS atau tag <style> */
+/* Mengatur warna latar belakang header tabel */
+th {
+    background-color: brown; 
+    color: white;
+    padding: 10px;
+    text-size-adjust: 150%;
+}
+
+/* Mengatur warna latar belakang untuk baris tabel */
+tr:nth-child(even) {
+    background-color: brown; /* Warna abu-abu muda */
+}
+
+/* Mengatur gaya untuk sel tabel */
+td {
+    padding: 2px;
+    border: 2px solid brown; /* Garis batas abu-abu */
+}
+
 #judul {
     color: brown;
     font-size: 24px;
@@ -45,7 +54,7 @@
 
 form {
     font-size: 2opx;
-    color: azure;
+    color: brown;
     margin: 0%;
     padding: 0%;
     border-color: azure;
