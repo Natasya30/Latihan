@@ -22,6 +22,8 @@
         object-fit: cover;
     }
 
+    .container {}
+
     table {
         border-collapse: collapse;
         font-size: 23px;
@@ -44,10 +46,10 @@
 
 form {
     font-size: 2opx;
-    color: brown;
+    color: beige;
     margin: 0%;
     padding: 0%;
-    border-color: azure;
+    border-color: beige;
 }
 
 footer {
