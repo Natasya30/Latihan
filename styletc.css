@@ -34,20 +34,21 @@
     }
     
     th{
-        background-color: brown;
+        background-color: bisque;
     }
 
     /* Di dalam file CSS atau tag <style> */
 #judul {
-    color: blue;
+    color: brown;
     font-size: 24px;
 }
 
 form {
     font-size: 2opx;
-    color: black;
+    color: azure;
     margin: 0%;
     padding: 0%;
+    border-color: azure;
 }
 
 footer {
