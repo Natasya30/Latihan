@@ -1,0 +1,62 @@
+/* Titik Cahaya */
+
+* {
+    background-color: #d9ae93;
+    box-sizing: border-box;
+}
+   
+    .img {
+        background-size: cover;
+        background-position: center
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 0fr));
+        margin: 0px;
+        align-items: center;
+        grid-gap: 10px; 
+    }
+        
+    img {
+        object-fit: cover;
+    }
+
+    table {
+        border-collapse: collapse;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+    th, td {
+        border: 2px solid black;
+        text-align: center;
+    }
+    
+    th{
+        background-color: brown;
+    }
+
+    /* Di dalam file CSS atau tag <style> */
+#judul {
+    color: blue;
+    font-size: 24px;
+}
+
+form {
+    font-size: 2opx;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    background: black
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    
