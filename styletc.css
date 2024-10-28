@@ -28,6 +28,8 @@
         border-collapse: collapse;
         font-size: 23px;
         color: sienna;
+        width: fit-content;
+        height: fit-content;
     }
     
     th, td {
@@ -40,7 +42,7 @@
     }
 
 #judul {
-    color: brown;
+    color: brown; /* Set text color to brown */
     font-size: 24px;
 }
 
@@ -50,15 +52,9 @@ form {
     margin: 0%;
     padding: 0%;
     border-color: beige;
+
 }
 
-footer {
-    background: black
-    text-align: center;
-    padding: 20px 0;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
+
     
