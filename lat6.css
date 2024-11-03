@@ -1,0 +1,30 @@
+.box-model{
+    width: 80px 80px;
+    padding: 35px;
+    border: 40px  solid blue;
+    margin: 60px;
+    background-color: bisque;
+    text-align: center;
+    position: relative
+}
+
+.outline p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    outline-style: dotted;
+    outline-color: brown;
+    outline-width: 5px;
+    outline-offset: 10px;
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.icon {
+    padding-top: 20px;
+    color: teal;
+}
+
+.fa-brands.fa-pinterest.fa-5x

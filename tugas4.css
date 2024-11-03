@@ -1,0 +1,89 @@
+/* Titik Cahaya */
+
+* {
+    background-color: #d9ae93;
+    box-sizing: border-box;
+}
+   
+    .img {
+        background-size: cover;
+        background-position: center
+    }
+
+    .outline {
+        text-align: center;
+        color: brown;
+        outline-style: groove;
+        outline-color: brown;
+        outline-width: 4px;
+        background-color: beige;
+    }
+
+        
+
+    img {
+        object-fit: cover;
+    }
+
+    .icon {
+        padding-top: 20px;
+        color: red;
+        align-items: center;
+        
+    }
+
+    .container {
+
+    }
+
+
+    table {
+        border-collapse: collapse;
+        font-size: 23px;
+        font-family: Helvetica;
+        color: sienna;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    th, td {
+        border: 2px solid brown;
+        text-align: center;
+    }
+    
+    th{
+        background-color: #d9ae93;;
+    }
+
+#judul {
+    color: brown; /* Set text color to brown */
+    font-size: 24px;
+    font-family: Helvetica;
+}
+
+form {
+    font-size: 2opx;
+    font-family: Helvetica;
+    color: beige;
+    margin: 0%;
+    padding: 0%;
+    border-color: beige;
+}
+
+.box-model{
+    width: 80px 80px;
+    padding-top: 20px;
+    padding: 30px;
+    border: 20px solid slategray;
+    margin: 60px;
+    margin-top: 25px;
+    background-color: lightcoral;
+    text-align: center;
+    position: relative
+}
+
+a { 
+    color: sienna;
+}
+
+    
