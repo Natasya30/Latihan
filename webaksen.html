@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="webaksen.css"
 </head>
 <body bgcolor="#d9ae93">
+
+
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function () {
+            var scrollTop = window.pageYOffset || document
+            .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop){
+                navbar.style.top='-80px';
+            } else {
+                navbar.style.top="0";
+            }
+            lastScrollTop = scrollTop;
+        })
+    </script>
     <div class="outline">
         <h1 style="text-align: center; color: brown; background-color: beige;" <b>Selamat Datang di Aksara Senja</b></h1>
     </div>
