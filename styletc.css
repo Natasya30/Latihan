@@ -24,6 +24,19 @@
 
     .container {}
 
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+      }
+      .product {
+        background: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+      
+
     table {
         border-collapse: collapse;
         font-size: 23px;
@@ -55,6 +68,49 @@ form {
 
 }
 
+.containerg {
 
+    margin: 0px;
+    align-items: center;
+    grid-gap: 10px; 
+    width: 20%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
 
+  .img {
+    object-fit: cover;
+  }
+  
+  .gambar-produk:hover {
+    opacity: 0.5;
+  }
+
+  .box {
+    border: 2px solid black; /* Warna border */
+    padding: 10px; /* Ruang di dalam border */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    width: fit-content; /* Sesuaikan lebar box dengan konten */
+    border-radius: 5px; /* Membuat sudut border melengkung */
+    margin: 10px auto; /* Memberikan jarak dan memposisikan ke tengah */
+    text-align: center; /* Meluruskan teks ke tengah */
+    font-family: Arial, sans-serif; /* Font untuk tampilan lebih rapi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+  }
+
+  .buy-1 {
     
+  }
+
+  gambar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .gambar-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }    

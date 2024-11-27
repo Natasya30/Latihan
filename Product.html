@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="icon" type="images/pama.jfif" href="images/pama.jfif">
+    <link rel="stylesheet" href="uts.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="navbar-judul">
+            <img src="images/logo.png">
+        </div>
+
+        <div class="navbartoogle">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Product.html">Product</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <img src="images/variasi.jfif" width="1500px" height="650px">
+    <br>
+
+    <h1 style="color: green; background-color: lightcyan; text-align: center;">Our Product</h1>
+
+    <div class="gallery-container">
+        <img class="gallery-item gallery-item-1" src="images/slide3.webp" data-index="1">
+        <img class="gallery-item gallery-item-2" src="images/slide4.webp" data-index="2">
+        <img class="gallery-item gallery-item-3" src="images/slide2.jfif" data-index="3">
+        <img class="gallery-item gallery-item-4" src="images/breathable2.jfif" data-index="4">
+        <img class="gallery-item gallery-item-5" src="images/venus2.webp" data-index="5">
+        <img class="gallery-item gallery-item-5" src="images/fwmarcks.webp" data-index="6">
+        <img class="gallery-item gallery-item-5" src="images/cushion.webp" data-index="7">
+        <img class="gallery-item gallery-item-5" src="images/lipen.webp" data-index="8">
+        <img class="gallery-item gallery-item-5" src="images/loosepowder.webp" data-index="9">
+        <img class="gallery-item gallery-item-5" src="images/sheetmask.png" data-index="10">
+        <img class="gallery-item gallery-item-5" src="images/pelembab.webp" data-index="11">
+        <img class="gallery-item gallery-item-5" src="images/sachet.webp" data-index="12">
+        <img class="gallery-item gallery-item-5" src="images/micellarwater.webp" data-index="13">
+    </div>
+    <div class="gallery-controls"></div>
+    </div>
+    <script src="uts.js"></scrip>
+
+<script type="text/javascript">
+    var lastScrollTop = 0;
+        navbar = document.getElementById("navbar");
+            window.addEventListener("scroll", function () {
+                var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+                if (scrollTop > lastScrollTop){
+                    navbar.style.top='-80px';
+                } else {
+                    navbar.style.top="0";
+                }
+                lastScrollTop = scrollTop;
+            })
+        </script>
+
+        <div class="review-container">
+  <div class="review">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <p class="review-text">
+      "Harganya terjangkau di kantong pelajar dan saya cocok dengan produknya"
+    </p>
+    <p class="reviewer-name">- Natasya</p>
+  </div>
+
+  <div class="review">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <p class="review-text">
+      "Produk yang sudah terbukti bagus selama puluhan tahun dan sering direkomendasikan oleh dokter, 
+      tapi untuk varian shadenya mungkin bisa ditambah."
+    </p>
+    <p class="reviewer-name">- Aulia</p>
+  </div>
+
+  <div class="review">
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p class="review-text">
+      "Saya suka banget sama bedak marcks ini, meski harga yang ditawarkan terjangkau, tapi kualitasnya bukan kaleng-kaleng!."
+    </p>
+    <p class="reviewer-name">- Rina</p>
+  </div>
+</div>
+
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/MarcksCosmeticIND?mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/marckscosmeticind/?igsh=MXA0YmI2MmJ5NDgyaA%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/Marcks_IND?t=JnfZ2HCICxV2pI3elEB3Ww&s=08"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@marcksofficial?_t=8rcvy3kdAbX&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://shopee.co.id/marckscosmetic?uls_trackid=51ap6mun0118&utm_content=ZAXa43G4j28M6uAEnKfK1H1w5m9"><i class="fas fa-shopping-bag"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="">Home</a></li>
+                <li><a href="">AboutUs</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">natasya</span></p>
+    </div>
+</footer>
+
+</body>
+</html>
